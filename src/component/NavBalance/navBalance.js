@@ -1,12 +1,12 @@
 import React from "react";
 import "./navBalance.css";
 
-const NavBalance = () => {
+const NavBalance = (props) => {
     return (
         <div className="Nav">
             <div className="money">
                 <p>My balance</p>
-                <h2>$921.48</h2>
+                <h2>${props.money}</h2>
             </div>
             <div className="icon">
                 <div className="LC"></div>

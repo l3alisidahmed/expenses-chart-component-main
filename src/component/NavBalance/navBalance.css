@@ -4,17 +4,17 @@
 }
 
 .Nav {
-    width: 400px;
+    width: 439px;
     padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     border-radius: 15px;
     background-color: hsl(10, 79%, 65%);
     grid-template-columns: 70% 30%;
 }
 
 .money {
-    grid-template-rows: 25px 37px;
+    grid-template-rows: 20px 38px;
 }
 
 .icon {
@@ -23,10 +23,12 @@
 }
 
 .Nav p {
+    font-size: 14px;
     color: hsl(27, 66%, 92%);
 }
 
 .Nav h2 {
+    font-size: 28px;
     color: hsl(33, 100%, 98%);
 }
 

@@ -1,11 +1,14 @@
 import React from "react";
 import "./Container.css";
 
-const Container = () => {
+const Container = (props) => {
     return (
         <div className="Container">
-            <div></div>
-            <p>mon</p>
+            <div style={{
+                backgroundColor: props.color,
+                height: props.height               
+            }}></div>
+            <p>{props.day}</p>
         </div>
     ); 
 }

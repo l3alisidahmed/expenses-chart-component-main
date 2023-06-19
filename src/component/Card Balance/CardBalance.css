@@ -1,6 +1,10 @@
 .Card {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 25px;
     border-radius: 15px;
     width: 418px;
     height: 350px;
-    background-color: burlywood;
+    background-color: white;
 }

@@ -6,12 +6,13 @@
 
 .Container div {
     width: 40px;
-    height: 100px;
-    background-color: chartreuse;
     border-radius: 5px;
 }
 
 .Container p {
+    font-weight: 600;
+    font-size: 14px;
     margin-top: 5px;
     text-align: center;
+    color: hsl(28, 10%, 53%);
 }

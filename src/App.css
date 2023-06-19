@@ -1,6 +1,22 @@
+@font-face {
+    font-family: DM Sans4;
+    src: url(https://fonts.google.com/specimen/DM+Sans);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: DM Sans7;
+    src: url(https://fonts.google.com/specimen/DM+Sans);
+    font-weight: 700;
+}
+
 .App {
+    font-family: 'DM Sans7', sans-serif;
     width: 100%;
     display: grid;
     justify-content: center;
     gap: 15px;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+    align-content: center;
 }

@@ -6,7 +6,7 @@ import CardBalance from "./component/Card Balance/CardBalance";
 function App() {
   return (
     <div className="App">
-      <NavBalance />
+      <NavBalance money = "921.48" />
       <CardBalance />
     </div>
   );

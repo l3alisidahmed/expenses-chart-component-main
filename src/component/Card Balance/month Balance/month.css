@@ -1,0 +1,32 @@
+.moneyOfMonth, .rightContent, .leftContent {
+    display: grid;
+}
+
+.moneyOfMonth {
+    grid-template-columns: 70% 30%;
+    align-items: baseline;
+}
+
+.leftContent {
+    grid-template-rows: 15px 51px;
+}
+
+.rightContent {
+    grid-template-rows: 20px 16px;
+    align-items: center;
+    justify-items: end;
+}
+
+
+.leftContent p, .rightContent .txt {
+    font-weight: 600;
+    color: hsl(28, 10%, 53%);
+}
+
+.leftContent h1, .rightContent p {
+    color: hsl(25, 47%, 15%);
+}
+
+.rightContent p {
+    font-weight: 600;
+}
